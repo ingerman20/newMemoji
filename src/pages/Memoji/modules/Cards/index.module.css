@@ -1,0 +1,9 @@
+.root {
+  position: absolute;
+  padding: 20px;
+  display: grid;
+  gap: 10px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}

@@ -1,0 +1,8 @@
+.root {
+  background: linear-gradient(45deg, var(--color-2), var(--color-3));
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  color: var(--color-1);
+  cursor: pointer;
+}

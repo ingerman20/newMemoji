@@ -1,0 +1,11 @@
+.root {
+  display: grid;
+  align-items: center;
+  padding: 10px;
+  color: var(--color-4);
+  grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+  margin: 0;
+}

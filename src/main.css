@@ -1,0 +1,15 @@
+:root {
+  --color-1: #ffffff;
+  --color-2: #22ab93;
+  --color-3: #19668d;
+  --color-4: #3a5663;
+}
+
+* {
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

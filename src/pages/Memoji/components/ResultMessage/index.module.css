@@ -1,0 +1,30 @@
+.root {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  font-size: 32px;
+  color: var(--color-4);
+  animation: scale 1s ease-in-out alternate-reverse infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+}

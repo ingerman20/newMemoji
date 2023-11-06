@@ -1,0 +1,30 @@
+.root {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: none;
+  color: var(--color-4);
+  cursor: pointer;
+}
+
+.buttonCaption {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .buttonCaption {
+    display: none;
+  }
+}
